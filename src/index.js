@@ -158,6 +158,7 @@ export default class Lottie extends Component {
       isStopped,
       isPaused,
       eventListeners,
+      options,
       ...extraProps
     } = this.props;
     
