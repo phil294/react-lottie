@@ -155,6 +155,9 @@ export default class Lottie extends Component {
       ariaLabel,
       isClickToPauseDisabled,
       style,
+      isStopped,
+      isPaused,
+      eventListeners,
       ...extraProps
     } = this.props;
     
